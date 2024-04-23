@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="yaokong" targetName="yaokong.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9bdb7a19-ffd8-4561-adb3-ef84597c60cf" name="默认变更列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="2ZCXxXIwA1lg7geDRFGzaMXfpfG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/OLED" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\clion_stm32\project_file\yaokong\OLED" />
+      <recent name="D:\clion_stm32\project_file\yaokong" />
+      <recent name="D:\clion_stm32\project_file\yaokong\yaogan" />
+      <recent name="D:\clion_stm32\project_file\yaokong\SR04" />
+      <recent name="D:\clion_stm32\project_file\yaokong\Core\Src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.OCD yaokong">
+    <configuration name="yaokong.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="yaokong" TARGET_NAME="yaokong.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="yaokong" RUN_TARGET_NAME="yaokong.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OCD yaokong" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="yaokong" TARGET_NAME="yaokong.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="yaokong" RUN_TARGET_NAME="yaokong.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\clion_stm32\project_file\F103OLED\DAPlink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.yaokong.elf" />
+      <item itemvalue="OpenOCD 下载并运行.OCD yaokong" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="9bdb7a19-ffd8-4561-adb3-ef84597c60cf" name="默认变更列表" comment="" />
+      <created>1701927282259</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701927282259</updated>
+      <workItem from="1701927385063" duration="4960000" />
+      <workItem from="1701932497141" duration="36000" />
+      <workItem from="1701933069348" duration="1719000" />
+      <workItem from="1701935901326" duration="87000" />
+      <workItem from="1701936016482" duration="269000" />
+      <workItem from="1701936940659" duration="1515000" />
+      <workItem from="1701938485508" duration="114000" />
+      <workItem from="1701939521001" duration="100000" />
+      <workItem from="1701950353149" duration="2744000" />
+      <workItem from="1702002909797" duration="814000" />
+      <workItem from="1702004102875" duration="686000" />
+      <workItem from="1702008149554" duration="606000" />
+      <workItem from="1702012834145" duration="10000" />
+      <workItem from="1702198138960" duration="1860000" />
+      <workItem from="1702217240479" duration="2461000" />
+      <workItem from="1702290980817" duration="4419000" />
+      <workItem from="1702351907815" duration="6310000" />
+      <workItem from="1702358938795" duration="984000" />
+      <workItem from="1702380547686" duration="2227000" />
+      <workItem from="1702470986041" duration="662000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

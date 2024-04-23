@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="yaokong"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/clion_stm32/project_file/yaokong/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yaokong.elf">
+				<Option output="D:/clion_stm32/project_file/yaokong/cmake-build-debug/yaokong.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/clion_stm32/project_file/yaokong/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Core/Inc"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/yaogan"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/u8g2"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/OLED"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 yaokong.elf"/>
+					<CompileFile command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yaokong.elf/fast">
+				<Option output="D:/clion_stm32/project_file/yaokong/cmake-build-debug/yaokong.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/clion_stm32/project_file/yaokong/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Core/Inc"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/yaogan"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/u8g2"/>
+					<Add directory="D:/clion_stm32/project_file/yaokong/OLED"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 yaokong.elf/fast"/>
+					<CompileFile command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/clion_stm32/project_file/yaokong/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/clion_stm32/project_file/yaokong/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/yaokong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Inc/FreeRTOSConfig.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Inc/adc.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Inc/gpio.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Inc/main.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Inc/stm32f1xx_it.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Inc/tim.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Inc/usart.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Src/adc.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Src/debug_com.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Src/freertos.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Src/gpio.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Src/main.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Src/stm32f1xx_hal_timebase_tim.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Src/stm32f1xx_it.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Src/syscalls.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Src/system_stm32f1xx.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Src/tim.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Core/Src/usart.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/OLED/my_menu .h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/OLED/my_menu.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/OLED/oled.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/OLED/oled.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/OLED/oledfont.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/STM32F103C8Tx_FLASH.ld">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/startup/startup_stm32f103xb.s">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/WALL_E.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/mui.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/mui.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/mui_u8g2.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/mui_u8g2.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_arc.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_bitmap.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_box.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_buffer.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_button.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_circle.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_cleardisplay.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_d_memory.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_d_setup.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_font.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_fonts.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_hvline.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_input_value.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_intersection.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_kerning.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_line.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_ll_hvline.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_message.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_polygon.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_selection_list.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8g2_setup.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8log.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8log_u8g2.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8log_u8x8.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_8x8.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_byte.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_cad.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_capture.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_d_ssd1306_128x64_noname.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_debounce.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_display.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_fonts.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_gpio.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_input_value.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_message.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_selection_list.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_setup.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_string.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_u16toa.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/u8g2/u8x8_u8toa.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/yaogan/yaogan.c">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/yaogan/yaogan.h">
+			<Option target="yaokong.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/yaokong/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

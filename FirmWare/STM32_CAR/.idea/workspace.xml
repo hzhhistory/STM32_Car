@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="STM32_CAR" targetName="STM32_CAR.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b258965-dd82-4772-860b-957d86800576" name="默认变更列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2dqoh0q5RG8FK1l7uLyGVSlVsdu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Core/Src" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\clion_stm32\project_file\STM32_CAR\Core\Src" />
+      <recent name="D:\clion_stm32\project_file\STM32_CAR\dht11" />
+      <recent name="D:\clion_stm32\project_file\STM32_CAR\DHT11" />
+      <recent name="D:\clion_stm32\project_file\STM32_CAR\TB6612Driver" />
+      <recent name="D:\clion_stm32\project_file\STM32_CAR" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\clion_stm32\project_file\STM32_CAR\TB6612Driver" />
+      <recent name="D:\clion_stm32\project_file\STM32_CAR\Fire" />
+      <recent name="D:\clion_stm32\project_file\STM32_CAR" />
+      <recent name="D:\clion_stm32\project_file\STM32_CAR\my_change" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.OCD STM32_CAR">
+    <configuration name="STM32_CAR.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32_CAR" TARGET_NAME="STM32_CAR.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="STM32_CAR" RUN_TARGET_NAME="STM32_CAR.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="NimRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="nim.task.build.to.cache" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OCD STM32_CAR" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32_CAR" TARGET_NAME="STM32_CAR.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="STM32_CAR" RUN_TARGET_NAME="STM32_CAR.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\clion_stm32\project_file\STM32_CAR\DAPlink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.STM32_CAR.elf" />
+      <item itemvalue="OpenOCD 下载并运行.OCD STM32_CAR" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="9b258965-dd82-4772-860b-957d86800576" name="默认变更列表" comment="" />
+      <created>1710745085291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710745085291</updated>
+      <workItem from="1710745105025" duration="2164000" />
+      <workItem from="1710752821784" duration="4403000" />
+      <workItem from="1710833512970" duration="5000" />
+      <workItem from="1711089311617" duration="22000" />
+      <workItem from="1711462138284" duration="554000" />
+      <workItem from="1711462711513" duration="887000" />
+      <workItem from="1711508999472" duration="3643000" />
+      <workItem from="1711541642128" duration="3033000" />
+      <workItem from="1711619245589" duration="1728000" />
+      <workItem from="1711674769114" duration="4325000" />
+      <workItem from="1711685035985" duration="7676000" />
+      <workItem from="1711708157019" duration="732000" />
+      <workItem from="1711792431180" duration="9000" />
+      <workItem from="1711966238837" duration="1848000" />
+      <workItem from="1712019477426" duration="1833000" />
+      <workItem from="1712039658030" duration="824000" />
+      <workItem from="1712052775568" duration="2000" />
+      <workItem from="1712053546485" duration="2000" />
+      <workItem from="1712107563907" duration="8000" />
+      <workItem from="1712109380029" duration="6000" />
+      <workItem from="1712127749801" duration="149000" />
+      <workItem from="1712128523519" duration="609000" />
+      <workItem from="1712549255399" duration="1109000" />
+      <workItem from="1712564572167" duration="7000" />
+      <workItem from="1712565005554" duration="2430000" />
+      <workItem from="1712584298010" duration="2328000" />
+      <workItem from="1712647820880" duration="61000" />
+      <workItem from="1713185724743" duration="1820000" />
+      <workItem from="1713361756021" duration="5201000" />
+      <workItem from="1713369560643" duration="2829000" />
+      <workItem from="1713452123874" duration="417000" />
+      <workItem from="1713453272653" duration="6000" />
+      <workItem from="1713453733776" duration="35000" />
+      <workItem from="1713453782322" duration="8000" />
+      <workItem from="1713453990485" duration="23000" />
+      <workItem from="1713454043411" duration="18000" />
+      <workItem from="1713457156003" duration="439000" />
+      <workItem from="1713457752343" duration="92000" />
+      <workItem from="1713504973637" duration="2089000" />
+      <workItem from="1713537803055" duration="706000" />
+      <workItem from="1713542447082" duration="13000" />
+      <workItem from="1713543893603" duration="7000" />
+      <workItem from="1713543918226" duration="8000" />
+      <workItem from="1713543967434" duration="236000" />
+      <workItem from="1713548392414" duration="256000" />
+      <workItem from="1713681808946" duration="482000" />
+      <workItem from="1713682315170" duration="208000" />
+      <workItem from="1713682540664" duration="5499000" />
+      <workItem from="1713777376395" duration="48000" />
+      <workItem from="1713839809461" duration="458000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
